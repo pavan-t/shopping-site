@@ -1,0 +1,5 @@
+c:\users\pt33\documents\visual studio 2012\Projects\ShoppingHeart\ShoppingHeart\bin\ShoppingHeart.dll
+c:\users\pt33\documents\visual studio 2012\Projects\ShoppingHeart\ShoppingHeart\bin\ShoppingHeart.pdb
+c:\users\pt33\documents\visual studio 2012\Projects\ShoppingHeart\ShoppingHeart\obj\Debug\ShoppingHeart.csprojResolveAssemblyReference.cache
+c:\users\pt33\documents\visual studio 2012\Projects\ShoppingHeart\ShoppingHeart\obj\Debug\ShoppingHeart.dll
+c:\users\pt33\documents\visual studio 2012\Projects\ShoppingHeart\ShoppingHeart\obj\Debug\ShoppingHeart.pdb

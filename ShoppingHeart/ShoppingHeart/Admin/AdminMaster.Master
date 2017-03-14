@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="ShoppingHeart.Admin.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   
+    <style type="text/css">
+        .auto-style2 {}
+        .auto-style3 {
+            height: 31px;
+        }
+        .auto-style4 {
+            height: 23px;
+        }
+    </style>
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table style="width: 900px">
+            <tr>
+                <td>
+                    <table style="border-bottom: medium ridge aqua; width: 900px; height: 142px; border-left-color: aqua; border-left-width: medium; border-right-color: aqua; border-right-width: medium; border-top-color: aqua; border-top-width: medium;">
+                        <tr>
+                            <td>
+                                <asp:Image ID ="Image1" runat="server" Height="90px" ImageUrl="~Images/Lighhouse.jpg" Width="149px" CssClass="auto-style2" />
+
+                            </td>
+                            <td>
+                                <asp:LinkButton ID="lblLogo" runat="server" Text="ShoppingHeart" Font-Size="20pt" ForeColor="WindowText"></asp:LinkButton>
+                                <br />
+                                For Those Who love Shopping.......!!
+                            </td>
+                            <td >
+                                <asp:Image ID="Image2" runat="server" Height ="81px" ImageUrl="~/Images/Tulips.jpg" Width="100px" />
+                            </td>
+
+                        </tr>
+                        </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="border-style: none; border-color: inherit; border-width: thin; width: 900px; height: 17px;">
+                        <tr>
+                            <td class ="auto-style2">
+                                <a href="AddEditCategory.aspx">Category</a> &nbsp; <a href ="AddNewProducts.aspx">Products</a> <a href="#"> CustomerOrders</a>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    <table style="border: 1px ridge #000000; width:900px;">
+                        <tr>
+                            <td class="auto-style4" >
+                                <asp:Panel ID="pnlCategories" runat="server">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                                </asp:Panel>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &copy;PAVAN KUMAR THULLURU
+                </td>
+            </tr>
+        </table>
+    
+    </form>
+</body>
+</html>
